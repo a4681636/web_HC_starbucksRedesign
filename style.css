@@ -100,5 +100,29 @@ grid-area: pic;
     padding: 20PX  ;
 }
 
+footer {
+    background:#dbb194;
+    text-align: center;
+    padding: 50px;
+    margin-top:100PX;
+}
+#footer-link {
+    padding: 20px 0;
 
+}
 
+#footer-link a {
+    color: #226641;
+    text-decoration: none;
+    padding: 0 20PX;
+}
+
+#footer-contact {
+    color:gray;
+    font-size: 10px;
+
+}
+#copy{
+    color: gray;
+    font-size: 8PX;
+}

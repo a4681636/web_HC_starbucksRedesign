@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
   
     <title>星巴克 | starbucks</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -40,7 +41,7 @@
             </P>
             <a href="" class="button">more >></a>
         </div>
-        <div class="pic">
+        <div class="pic" data-aos="fade" data-aos-duration="1500">
         <img src="./IMG/prduct1.jpg" alt="drink飲料"></div>
 
     </div>
@@ -54,7 +55,7 @@
             </P>
             <a href="" class="button">more >></a>
         </div>
-        <div class="pic">
+        <div class="pic" data-aos="fade" data-aos-offset="500">
         <img src="./IMG/P5.jpg" alt="糕點CAKE"></div>
     </div>
     <div>
@@ -112,9 +113,20 @@
 <!-- 其他內容 -->
 
 <!-- 頁尾 -->
+<footer>
+    <div id="footer-social">
+        <a href="" target="_blank"><img src="./IMG/ICON-FB.png" alt="FACEBOOL臉書"></a>
+        <a href="" target="_blank"><img src="./IMG/ICON-IG.png" alt="instargram"></a>
+    </div>
+    <div id="footer-link"><a href="" target="_blank">網站地圖</a><a href="" target="_blank">個人資料保護政策</a><a href="" target="_blank">使用條款與須知</a><a href="" target="_blank">聯絡我們</a></div>
+<div id="footer-contact">客服專線 0800-000-482 (服務時間: 週一至週六 09:00-18:00，週日與國定假日除外)</div>
+    <div id="copy">&copy; starbucks 2021.</div>
+</footer>
 
 
-
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

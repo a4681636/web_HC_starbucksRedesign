@@ -84,6 +84,7 @@ grid-area: pic;
     grid-template-columns: repeat(3, 1fr);
     width: 1280PX;
     margin: 20PX auto 0;
+    grid-gap: 20PX;
 
 }
 

@@ -5,3 +5,8 @@ $("#banner").slick({
     dots:true,
 
 });
+
+$("#OTHER").slick({
+    slidesToShow:3,
+    slidesToScroll:2
+});

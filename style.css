@@ -11,6 +11,10 @@ nav{
     box-shadow: 0 5PX 10PX rgba(0, 0, 0, 0.15);
     padding: 20px 30PX;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index:2;
+    opacity: 0.9;
 }
 
 
@@ -63,7 +67,9 @@ nav{
 }
 
 #banner .slick-next {
-    right:25px
+    right:25px;
+    z-index:1;
+    transform: scale(1.5);
 }
 #banner .slick-dots {
     bottom: 25PX;
@@ -182,4 +188,32 @@ footer {
 #copy{
     color: gray;
     font-size: 8PX;
+}
+
+/* 其他服務 */
+#OTHER {
+    width: 1280pX;
+    margin: 0 auto;
+   
+}
+#OTHER img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+#OTHER h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+#OTHER img:hover {
+    border-radius: 4PX;
+}
+#OTHER div:focus {
+    outline: none;
+    
 }

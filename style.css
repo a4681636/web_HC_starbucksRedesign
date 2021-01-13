@@ -12,6 +12,62 @@ nav{
     padding: 20px 30PX;
     align-items: center;
 }
+
+
+/* 最新商品 */
+#banner div {
+    height: 100vh;
+}
+.banner1 {
+    background-image:url(./IMG/banner1.jpg);
+    background-size: cover;
+}
+.banner2 {
+    background-image:url(./IMG/banner2.jpg);
+    background-size: cover;
+}
+.banner3 {
+    background-image:url(./IMG/banner3.jpg);
+    background-size: cover;
+
+}
+
+#banner {
+    text-align: center;
+    color:#FFF;
+
+}
+#banner h1 {
+    padding: 30px;
+    margin-top:200PX;
+    font-size: 120px;
+    text-shadow: 0 5px 10pX rgba(0,0,0,0.3);
+}
+#banner p {
+    padding: 30px;
+    text-shadow:0 5PX 10PX rgba(0,0,0,0.3);
+
+}
+#banner hr {
+    width: 80%;
+    margin: 0 auto;
+    height: 5px;
+    background:white;
+    border: none;
+}
+
+#banner .slick-prev {
+    left:50px;
+    z-index:1;
+    transform: scale(1.5);
+}
+
+#banner .slick-next {
+    right:25px
+}
+#banner .slick-dots {
+    bottom: 25PX;
+}
 #link a{
     font-size:20px;
     text-decoration: none;

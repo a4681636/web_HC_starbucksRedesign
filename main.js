@@ -1,9 +1,8 @@
 $("#banner").slick({
     autoplay:true,
-    autoplahySpeed:1000,
-    Speed:1000,
-    dots:true,
-
+    autoplaySpeed:1000,
+    speed:1000,
+    dots:true
 });
 
 $("#OTHER").slick({
